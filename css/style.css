@@ -1,0 +1,124 @@
+#book {
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  left: -80px;
+  box-shadow: 2px 2px 8px #222121;
+  max-height: 70%;
+}
+.mr-auto {
+  position: relative;
+  left: 100px;
+}
+body {
+  background-image: linear-gradient(
+      rgba(47, 23, 15, 0.65),
+      rgba(47, 23, 15, 0.65)
+    ),
+    url("../img/bg.jpg");
+  background-size: 100%;
+  background-position-y: 110px;
+  background-attachment: fixed;
+}
+.jumbotron {
+  display: block;
+  margin-top: 200px;
+  max-width: 500px;
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  width: 700px;
+  height: 630px;
+  margin-top: 300px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #222121;
+  z-index: 0;
+}
+.card-header {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  text-emphasis-color: #292710;
+  box-shadow: 2px 5px 18px #292710;
+}
+.navbar {
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.vinny-section {
+  height: 50%;
+  width: 100%;
+}
+.papi-section {
+  height: 50%;
+  width: 100%;
+}
+.barber-image {
+  height: auto;
+  width: 100%;
+}
+.barber-description {
+  width: 60%;
+  float: right;
+}
+.image-section {
+  width: 30%;
+  float: left;
+}
+#barber-card {
+  height: 750px;
+}
+#time-card {
+  width: 500px;
+  height: 450px;
+  align-items: center;
+}
+#calendar {
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#style-confirm{
+  position: relative;
+  left: 540px;
+}
+
+#updated-email{
+  margin-top: 20px;
+}
+
+#submit-updated-email{
+  margin-top: 10px;
+  position: relative;
+  left: 540px;
+}
+
+#details-input{
+  position: relative;
+  left: 540px;
+}
+
+#cancel-button{
+  position: relative;
+  left: 170px;
+}
+
+#update-button{
+  position:relative;
+  left: 150px;
+
+}
+
+b{
+  font-weight: 900;
+}
